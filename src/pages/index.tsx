@@ -1,5 +1,5 @@
-import BanneLeft from '@/components/features/login/BanneLeft'
-import FormRight from '@/components/features/login/FormRight'
+import BanneLeft from '@/components/features/Auth/BanneLeft'
+import FormRight from '@/components/features/Auth/FormRight'
 import { RULES } from '@/constants'
 import { NextPage } from 'next'
 import React from 'react'
