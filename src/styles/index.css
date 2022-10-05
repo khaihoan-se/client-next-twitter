@@ -1,0 +1,115 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Your own custom component styles */
+
+@import "tailwindcss/utilities";
+/* 🚌 Settup Theme Colors */
+.light {
+    --bg-color: rgb(255, 255, 255);
+    --bg-atc-color: rgba(255, 255, 255, 0.85);
+    --subbg-color: rgb(247, 249, 249);
+    --text-color: rgb(15, 20, 25);
+    --subtext-color: rgb(83, 100, 113);
+    --shadow-color: theme('boxShadow.white-shadow-dark');
+    --hover-header-color: rgba(15, 20, 25, 0.1);
+    --hover-main-color: rgba(0, 0, 0, 0.03);
+    --border-color: rgb(239, 243, 244);
+    --dropShadow-color: theme('dropShadow.sm');
+    --logo-color: rgb(29, 155, 240);
+    /* Page Logout  */
+
+    --bg-logout: rgba(0, 0, 0, 0.4);
+    --subtext-logout: rgb(83, 100, 113);
+    --bg-button-logout: rgb(15, 20, 25);
+    --bg-button-hover-logout: rgb(39, 44, 48);
+    --bg-button-cancel-logout: rgba(0, 0, 0, 0);
+    --bg-button-cancel-hover-logout: rgb(15, 20, 25, 0.1);
+    --text-button-cancel-logout: rgb(15, 20, 25);
+    --border-color-button-cancel-logout: rgb(207, 217, 222);
+}
+.dark {
+    --bg-color: rgb(0, 0, 0);
+    --bg-atc-color: rgba(0, 0, 0, 0.65);
+    --subbg-color: rgb(22, 24, 28);
+    --text-color: rgb(231, 233, 234);
+    --subtext-color: rgb(113, 118, 123);
+    --shadow-color: theme('boxShadow.dark-shadow-dark');
+    --hover-header-color: rgba(231, 233, 234, 0.1);
+    --hover-main-color: rgba(255, 255, 255, 0.03);
+    --border-color: rgb(47, 51, 54);
+    --dropShadow-color: theme('dropShadow.xl');
+    --logo-color: rgb(214, 217, 219);
+    /* Page Logout  */
+
+    --bg-logout: rgba(91, 112, 131, 0.4);
+    --subtext-logout: rgb(113, 118, 123);
+    --bg-button-logout: rgb(239, 243, 244);
+    --bg-button-hover-logout: rgb(215, 219, 220);
+    --bg-button-cancel-logout: rgba(0, 0, 0, 0);
+    --bg-button-cancel-hover-logout: rgb(239, 243, 244, 0.1);
+    --text-button-cancel-logout: rgb(239, 243, 244);
+    --border-color-button-cancel-logout: rgb(83, 100, 113);
+}
+.blue {
+    --main-color: rgb(29, 155, 240);
+    --hover-maincl-color: rgba(29, 155, 240, 0.102);
+}
+.yellow {
+    --main-color: rgb(255, 212, 0);
+    --hover-maincl-color: rgba(255, 212, 0, 0.102);
+}
+.pink {
+    --main-color: rgb(249, 24, 128);
+    --hover-maincl-color: rgba(249, 24, 128, 0.102);
+}
+.violet {
+    --main-color: rgb(120, 86, 255);
+    --hover-maincl-color: rgba(120, 86, 255, 0.102);
+}
+.orange {
+    --main-color: rgb(255, 122, 0);
+    --hover-maincl-color: rgba(255, 122, 0, 0.102);
+}
+.green {
+    --main-color: rgb(0, 186, 124);
+    --hover-maincl-color: rgba(0, 186, 124, 0.102);
+}
+/* 🚁 Reset Css 🚁 */
+svg {
+    @apply fill-current;
+    /* color: #1d9bf01a */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+a {
+    outline: none;
+}
+/* 🚁 Layout 🚁 */
+html, body {
+    @apply h-full bg-black;
+}
+
+body {
+    @apply m-0 text-sm;
+}
+::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}
+
+.app {
+    @apply bg-tt-bg-color text-tt-text-color;
+}
+
+
+.hover--button--color:hover {
+    background-color: rgb(26, 140, 216);
+}
+
+.login--rules--text {
+    color: rgb(83, 100, 113);
+}
