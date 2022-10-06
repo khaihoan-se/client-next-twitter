@@ -1,12 +1,13 @@
 import AppleLoginIcon from '@/components/icons/AppleLoginIcon'
 import React from 'react'
+import BaseButton from '@/components/shared/BaseButton'
 
 const ALogin = () => {
    return (
-      <div className='w-[300px] max-w-[380px] h-[40px] mb-5 flex-1 flex items-center justify-center border-[1px] border-[#dadce0] rounded-[50px] cursor-pointer text-[#3c4043]'>
+      <BaseButton className='font-bold text-[#3c4043]'>
          <AppleLoginIcon className='w-4 h-4 mr-2 text-black' />
          <span>Đăng ký bằng Google</span>
-      </div>
+      </BaseButton>
    )
 }
 

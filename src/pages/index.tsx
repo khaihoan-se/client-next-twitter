@@ -9,7 +9,7 @@ const LoginPage: NextPage = () => {
    return (
       <React.Fragment>
          <div className='flex-1'>
-            <div className='lg:flex-row-reverse flex-col flex-auto flex relative lg:min-h-screen min-h-fit'>
+            <div className='lg:flex-row-reverse flex-col flex-auto flex relative lg:min-h-screen'>
                <FormRight />
                <BanneLeft />
             </div>
