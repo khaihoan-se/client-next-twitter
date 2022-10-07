@@ -1,8 +1,10 @@
 import Logo from '@/components/shared/Logo'
 import React from 'react'
 import FormMain from './FormMain'
-
-const FormRight = () => {
+interface FormRightProps {
+   setOpenLogin?: any;
+}
+const FormRight: React.FC<FormRightProps> = ({ setOpenLogin }) => {
    return (
       <div className='min-w-[45vw] justify-center p-4 items-stretch flex-col bg-white z-50'>
          <div className='sm:min-w-[437px] max-w-[760px] w-full p-5'>
@@ -13,7 +15,7 @@ const FormRight = () => {
             <div className='text-black mb-8 leading-[36px] text-[31px] font-bold'>
                <span>Tham gia Twitter hôm nay.</span>
             </div>
-            <FormMain />
+            <FormMain setOpenLogin={setOpenLogin} />
          </div>
       </div>
    )

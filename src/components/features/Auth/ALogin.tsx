@@ -6,7 +6,7 @@ const ALogin = () => {
    return (
       <BaseButton className='font-bold text-[#3c4043]'>
          <AppleLoginIcon className='w-4 h-4 mr-2 text-black' />
-         <span>Đăng ký bằng Google</span>
+         <span>Đăng ký bằng Apple</span>
       </BaseButton>
    )
 }

@@ -113,3 +113,7 @@ body {
 .login--rules--text {
     color: rgb(83, 100, 113);
 }
+
+.bg__module {
+    background: rgba(0, 0, 0, 0.4);
+}
