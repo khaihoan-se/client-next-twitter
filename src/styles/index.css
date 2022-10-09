@@ -85,7 +85,7 @@ img {
     height: auto;
     pointer-events: none;
 }
-a {
+a, button {
     outline: none;
 }
 /* 🚁 Layout 🚁 */
