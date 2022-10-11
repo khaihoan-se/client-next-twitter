@@ -1,30 +1,21 @@
 import BaseButton from '@/components/shared/BaseButton'
 import Link from 'next/link'
 import React from 'react'
-import ALogin from './ALogin'
-import GLogin from './GLogin'
+import ButtonLoginApple from './ButtonLoginApple'
+import ButtonLoginGoogle from './ButtonLoginGoogle'
+import DevOr from './DevOr'
 
 const MainLogin = () => {
    return (
       <React.Fragment>
-         <GLogin />
-         <ALogin />
-         <div className='md:w-[300px] w-full max-w-[380px] my-1'>
-            <div className='flex-row mx-[-4px] my-[4px] flex items-center'>
-               <div className='mx-1 justify-center basis-0 min-w-0 flex-1'>
-                  <div className='bg-[#2f3336] h-[1px]'></div>
-               </div>
-               <div className='font-normal text-[15px]'>
-                  <span>hoặc</span>
-               </div>
-               <div className='mx-1 justify-center basis-0 min-w-0 flex-1'>
-                  <div className='bg-[#2f3336] h-[1px]'></div>
-               </div>
-            </div>
-         </div>
+         <ButtonLoginGoogle />
+         <ButtonLoginApple />
+         <DevOr />
+         
          <BaseButton className='bg-tt-main-color text-white font-bold px-6 text-[14px] flex items-center justify-center'>
             <span className='max-w-full text-ellipsis whitespace-nowrap overflow-hidden'>Đăng ký bằng số điện thoại hoặc email</span>
          </BaseButton>
+
          <div className='w-[300px] max-w-[380px] text-[11px] text-[#536471] leading-3 mb-5'>
             <span>
                Khi đăng ký, bạn đã đồng ý với 

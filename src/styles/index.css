@@ -117,3 +117,6 @@ body {
 .bg__module {
     background: rgba(0, 0, 0, 0.4);
 }
+.focus--input:focus ~ .label--input {
+    background-color: aquamarine !important;
+}

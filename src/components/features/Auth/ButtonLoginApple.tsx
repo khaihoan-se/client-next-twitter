@@ -2,7 +2,7 @@ import AppleLoginIcon from '@/components/icons/AppleLoginIcon'
 import React from 'react'
 import BaseButton from '@/components/shared/BaseButton'
 
-const ALogin = () => {
+const ButtonLoginApple = () => {
    return (
       <BaseButton className='font-bold text-[#3c4043]'>
          <AppleLoginIcon className='w-4 h-4 mr-2 text-black' />
@@ -11,4 +11,4 @@ const ALogin = () => {
    )
 }
 
-export default ALogin
+export default ButtonLoginApple

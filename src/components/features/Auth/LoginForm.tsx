@@ -1,6 +1,8 @@
-import React from 'react'
-import GLogin from './GLogin'
-import ALogin from './ALogin'
+import React, { useRef } from 'react'
+import ButtonLoginGoogle from './ButtonLoginGoogle'
+import ButtonLoginApple from './ButtonLoginApple'
+import Input from '@/components/shared/Input'
+import DevOr from './DevOr'
 
 const LoginForm = () => {
    return (
@@ -9,21 +11,10 @@ const LoginForm = () => {
             <div className='pb-5'>
                <h1 className='text-[#0f1419] leading-9 text-[31px] font-bold'><span>Đăng nhập vào Twitter</span></h1>
             </div>
-            <GLogin />
-            <ALogin />
-            <div className='md:w-[300px] w-full max-w-[380px] my-1'>
-               <div className='flex-row mx-[-4px] my-[4px] flex items-center'>
-                  <div className='mx-1 justify-center basis-0 min-w-0 flex-1'>
-                     <div className='bg-[#2f3336] h-[1px]'></div>
-                  </div>
-                  <div className='font-normal text-[15px]'>
-                     <span>hoặc</span>
-                  </div>
-                  <div className='mx-1 justify-center basis-0 min-w-0 flex-1'>
-                     <div className='bg-[#2f3336] h-[1px]'></div>
-                  </div>
-               </div>
-            </div>
+            <ButtonLoginGoogle />
+            <ButtonLoginApple />
+            <DevOr />
+            <Input label='Số điện thoại, email hoặc tên người dùng' />
          </div>
       </div>
    )
