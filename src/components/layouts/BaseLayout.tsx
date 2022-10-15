@@ -11,7 +11,6 @@ interface BaseLayoutProps {
 const BaseLayout = ({ children }: BaseLayoutProps) => {
    /* useRouter */
    const router = useRouter()
-
    return (
       <main className='app light blue'>
          <div className={classNames(

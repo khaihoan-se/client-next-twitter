@@ -33,7 +33,9 @@ module.exports = {
 
         'tt-logo-color': 'var(--logo-color)',
 
-        'tt-hover-maincl-color': 'var(--hover-maincl-color)'
+        'tt-hover-maincl-color': 'var(--hover-maincl-color)',
+
+        'tt-border-login-page': 'var(--border-login-page)'
       },
       boxShadow: {
         'white-shadow-dark': 'rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;',
