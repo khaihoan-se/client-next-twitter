@@ -7,8 +7,9 @@ import BaseButton from '@/components/shared/BaseButton'
 
 interface LoginFormProps {
    handleChangeUser?: any;
+   setTab?: any;
 }
-const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser }) => {
+const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser, setTab }) => {
    return (
       <div className='max-w-[600px] w-full mx-auto'>
          <div className='py-12 min-w-[364px] max-w-[364px] px-8 m-auto'>
@@ -26,6 +27,7 @@ const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser }) => {
             />
             <BaseButton 
                className='bg-black text-white text-[15px] font-bold my-3'
+               onClick={() => setTab(2)}
             >
                Tiếp theo
             </BaseButton>

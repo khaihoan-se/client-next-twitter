@@ -30,12 +30,10 @@ module.exports = {
         'tt-bg-button-cancel-hover-logout': 'var(--bg-button-cancel-hover-logout)',
         'tt-text-button-cancel-logout': 'var(--text-button-cancel-logout)',
         'tt-border-color-button-cancel-logout': 'var(--border-color-button-cancel-logout)',
-
         'tt-logo-color': 'var(--logo-color)',
-
         'tt-hover-maincl-color': 'var(--hover-maincl-color)',
-
-        'tt-border-login-page': 'var(--border-login-page)'
+        'tt-border-login-page': 'var(--border-login-page)',
+        'tt-text-login': 'var(--text-login)'
       },
       boxShadow: {
         'white-shadow-dark': 'rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;',

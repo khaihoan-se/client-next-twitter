@@ -27,10 +27,9 @@
     --bg-button-cancel-hover-logout: rgb(15, 20, 25, 0.1);
     --text-button-cancel-logout: rgb(15, 20, 25);
     --border-color-button-cancel-logout: rgb(207, 217, 222);
-
     --border-login-page: rgb(207, 217, 222);
-
     --bg-module-login: rgba(0, 0, 0, 0.4);
+    --text-login: rgb(83, 100, 113);
 }
 .dark {
     --bg-color: rgb(0, 0, 0);
@@ -54,10 +53,9 @@
     --bg-button-cancel-hover-logout: rgb(239, 243, 244, 0.1);
     --text-button-cancel-logout: rgb(239, 243, 244);
     --border-color-button-cancel-logout: rgb(83, 100, 113);
-
     --border-login-page: rgb(83, 100, 113);
-
     --bg-module-login: rgba(91, 112, 131, 0.4);
+    --text-login: rgb(113, 118, 123);
 }
 .blue {
     --main-color: rgb(29, 155, 240);
@@ -116,10 +114,6 @@ body {
 
 .hover--button--color:hover {
     background-color: rgb(26, 140, 216);
-}
-
-.login--rules--text {
-    color: rgb(83, 100, 113);
 }
 
 .bg__module {

@@ -16,7 +16,7 @@ const MainLogin = () => {
             <span className='max-w-full text-ellipsis whitespace-nowrap overflow-hidden'>Đăng ký bằng số điện thoại hoặc email</span>
          </Button>
 
-         <div className='w-[300px] max-w-[380px] text-[11px] text-[#536471] leading-3 mb-5'>
+         <div className='w-[300px] max-w-[380px] text-[11px] text-tt-text-login leading-3 mb-5'>
             <span>
                Khi đăng ký, bạn đã đồng ý với 
                <span className='text-tt-main-color hover:underline ml-1'><Link href='/'><a>Điều khoản Dịch vụ</a></Link></span> và 
