@@ -13,7 +13,7 @@ const BaseButton = React.forwardRef<HTMLButtonElement, BaseButtonProps>((props, 
    return (
       <button
          className={classNames(
-            'outline-none min-w-[36px] min-h-[36px] w-full px-4 mx-auto rounded-full',
+            'outline-none rounded-full',
             className
          )}
          ref={ref}

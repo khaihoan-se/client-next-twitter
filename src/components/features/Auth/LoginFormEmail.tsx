@@ -6,10 +6,10 @@ import DevOr from './DevOr'
 import BaseButton from '@/components/shared/BaseButton'
 
 interface LoginFormProps {
-   handleChangeUser?: any;
-   setTab?: any;
+   handleChangeUser: () => void;
+   handleCheckEmail: () => void;
 }
-const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser, setTab }) => {
+const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser, handleCheckEmail }) => {
    return (
       <div className='max-w-[600px] w-full mx-auto'>
          <div className='py-12 min-w-[364px] max-w-[364px] px-8 m-auto'>
@@ -26,13 +26,13 @@ const LoginFormEmail: React.FC<LoginFormProps> = ({ handleChangeUser, setTab }) 
                onChange={handleChangeUser}
             />
             <BaseButton 
-               className='bg-black text-white text-[15px] font-bold my-3'
-               onClick={() => setTab(2)}
+               className='bg-black text-white text-[15px] font-bold my-3 min-w-[36px] min-h-[36px] w-full px-4'
+               onClick={handleCheckEmail}
             >
                Tiếp theo
             </BaseButton>
             <BaseButton 
-               className='bg-white text-black text-[15px] font-bold my-3 border-[1px] border-[#cfd9de]'
+               className='bg-white text-black text-[15px] font-bold my-3 border-[1px] border-[#cfd9de] min-w-[36px] min-h-[36px] w-full px-4 '
             >
                Quên mật khẩu?
             </BaseButton>
